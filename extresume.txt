@@ -1,1 +1,37 @@
-https://code.sololearn.com/Ww89bGbF1qtt/?ref=app
+<svg width="340" height="150">
+    <rect  width="150" height="150" fill="cyan">
+        <animate attributeName="x" from="0" to="500"
+      dur="8s"  repeatCount="5"/> 
+    </rect>
+</svg>
+<html>
+    <img src="images.jpg">
+<marquee width="200"> webpage </marquee>
+<marquee behavior="alternate" bgcolor = "pink">welcome to my new web page</marquee>
+    <head><script>
+        var c=document.getElementById("canvas1");
+        function clickedButton() { 
+        window.location = 'https://sreekavya26.github.io/my-resume/' } </script> </head>
+    <body>
+        <canvas id="canvas1" width="400" height="30">
+        </canvas> 
+       <div class="main" onsubmit="openpage()">
+       <h5>Hi ,this is kavya singh rajput</h5>
+       <h5>Vignan's Nirula Institute Of Technology For Women</h5>
+       <p>to check my resume submit your mail id:</p>
+            
+  <form autocomplete="off">
+   <label for="e-mail">Your e-mail address: </label>
+   <input name="Email" type="text" required />
+  
+</form>
+   
+   <form name="login_form" method="post">
+       <input type="button" value="Login" onClick="clickedButton()" required/>  
+  
+</form>
+   </div>
+ 
+    </body>
+</html>
+
