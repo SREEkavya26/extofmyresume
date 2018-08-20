@@ -1,1 +1,3 @@
-https://code.sololearn.com/Ww89bGbF1qtt/?ref=app
+function openpage(){    window.open("my2.html","_self,true");
+}    
+//window.location.href = "http://example.com/new_url";
